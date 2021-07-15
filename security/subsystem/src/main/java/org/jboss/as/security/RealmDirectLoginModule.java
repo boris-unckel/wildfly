@@ -306,8 +306,6 @@ public class RealmDirectLoginModule extends UsernamePasswordLoginModule {
         NONE
     }
 
-    ;
-
     private static ServiceContainer currentServiceContainer() {
         if(System.getSecurityManager() == null) {
             return CurrentServiceContainer.getServiceContainer();
